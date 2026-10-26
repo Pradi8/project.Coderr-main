@@ -13,3 +13,8 @@ function setHeaderTemplate() {
         headerRef.innerHTML = getLogedOutHeaderTemplate()
     }
 }
+
+function getCopyrightYear() { 
+    document.getElementById("copyright_year").textContent =
+    new Date().getFullYear();
+}

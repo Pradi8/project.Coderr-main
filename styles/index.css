@@ -27,6 +27,10 @@ main{
     flex-direction: column;
 }
 
+p {
+    cursor: default;
+}
+
 @media only screen and (max-width: 769px) {
     .profile_stats {
         flex-direction: column;

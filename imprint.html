@@ -26,7 +26,7 @@
     <script src="./shared/scripts/header.js"></script>
 </head>
 
-<body onload="setHeader()" onclick="closeAllOpenedElements()">
+<body onload="setHeader(); getCopyrightYear()" onclick="closeAllOpenedElements()">
     <header class="main_header">
 
         <a class="logo" href="./index.html">
@@ -58,7 +58,7 @@
         <a class="logo" href="./index.html">
             <img src="./assets/logo/logo_coderr_light.svg" alt="" srcset="">
         </a>
-        <p>©Coderr. All rights reserved.</p>
+        <p>© <span id="copyright_year"></span> Coderr. All rights reserved.</p>
         <div class="d_flex_cc_gm">
             <a class="link" href="./imprint.html">Impressum</a>
             <a class="link" href="./privacy_policy.html">Datenschutz</a>
